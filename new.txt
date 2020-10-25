@@ -1,0 +1,22 @@
+ cd d:\work
+ pwd
+ cd ..
+ cd work/
+ ls
+ clear
+ git init
+ git clone https://github.com/devopssampath/spleague.git
+ git status .
+ git add .
+ git status .
+ git commit -m "SP League file added"
+ git status .
+ git push
+ git remote add work https://github.com/devopssampath/spleague.git
+ git push
+ git push -u ori master
+ git remote add origin https://github.com/devopssampath/spleague.git
+ git push -u origin master
+ git status
+ git history
+ history
